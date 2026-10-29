@@ -11,33 +11,33 @@
 
     <div>
         <h2 class="txt">Calculator</h2>
-        <input class="display" type="text">
+        <input class="display" id="numberType" type="text">
 
         <div class="buttons">
-            <input class="function" type="button" value="C">
+            <input class="function" type="button" value="C" onclick="clikFunctions()">
             <input class="function" type="button" value="+/-">
             <input class="function" type="button" value="%">
             <input class="operator" type="button" value="÷">
 
-            <input class="number" type="button" value="7">
-            <input class="number" type="button" value="8">
-            <input class="number" type="button" value="9">
-            <input class="operator" type="button" value="×">
+            <input class="number" type="button" value="7" onclick="clickNumbers()">
+            <input class="number" type="button" value="8" onclick="clickNumbers()">
+            <input class="number" type="button" value="9" onclick="clickNumbers()">
+            <input class="operator" type="button" value="×" onclick="clickOperators()">
 
-            <input class="number" type="button" value="4">
-            <input class="number" type="button" value="5">
-            <input class="number" type="button" value="6">
-            <input class="operator" type="button" value="−">
+            <input class="number" type="button" value="4" onclick="clickNumbers()">
+            <input class="number" type="button" value="5" onclick="clickNumbers()">
+            <input class="number" type="button" value="6" onclick="clickNumbers()">
+            <input class="operator" type="button" value="−" onclick="clickOperators()">
 
-            <input class="number" type="button" value="1">
-            <input class="number" type="button" value="2">
-            <input class="number" type="button" value="3">
-            <input class="operator" type="button" value="+">
+            <input class="number" type="button" value="1" onclick="clickNumbers()">
+            <input class="number" type="button" value="2" onclick="clickNumbers()">
+            <input class="number" type="button" value="3" onclick="clickNumbers()">
+            <input class="operator" type="button" value="+" onclick="clickOperators()">
 
-            <input class="function" type="button" value="AC">
-            <input class="number" type="button" value="0">
-            <input class="number" type="button" value=".">
-            <input class="equal" type="button" value="=">
+            <input class="function" type="button" value="AC" onclick="clikFunctions()">
+            <input class="number" type="button" value="0" onclick="clickNumbers()">
+            <input class="number" type="button" value="." >
+            <input class="equal" type="button" value="=" onclick="clickOperators()">
         </div>
     </div>
 
