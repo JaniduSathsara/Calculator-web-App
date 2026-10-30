@@ -1,6 +1,7 @@
 function clickNumbers(buttons) {
     let number = document.getElementById("Calculation").value;
     number += buttons.value;
+
     document.getElementById("Calculation").value = number;
 }
 
