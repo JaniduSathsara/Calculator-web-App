@@ -1,7 +1,7 @@
-
 .txt {
     text-align: center;
 }
+
 .display {
     width: 100%;
     text-align: right;
@@ -23,33 +23,18 @@
     color: #202733;
 }
 
-.number:hover {
-    background: #dfe4ec;
-}
 
 .function {
     background: #dce8ff;
     color: #174ea6;
 }
 
-.function:hover {
-    background: #c6d9ff;
-}
-
 .operator {
     background: #e5e9f0;
     color: #202733;
 }
-.operator:hover {
-    background: #c6d9ff;
-}
 
 .equal {
     background: #2563eb;
-    color: white;
-}
-
-.equal:hover {
-    background: #1d4ed8;
     color: white;
 }

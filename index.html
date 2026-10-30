@@ -11,33 +11,31 @@
 
     <div>
         <h2 class="txt">Calculator</h2>
-        <input class="display" id="numberType" type="text">
+        <input class="display" id="Calculation" type="text" placeholder="Calculation">
+        <input class="display" id="results" type="text" placeholder="result">
+        <input class="display" id="History" type="text" placeholder="History">
 
         <div class="buttons">
             <input class="function" type="button" value="C" onclick="clikFunctions()">
-            <input class="function" type="button" value="+/-">
-            <input class="function" type="button" value="%">
-            <input class="operator" type="button" value="÷">
-
-            <input class="number" type="button" value="7" onclick="clickNumbers()">
-            <input class="number" type="button" value="8" onclick="clickNumbers()">
-            <input class="number" type="button" value="9" onclick="clickNumbers()">
-            <input class="operator" type="button" value="×" onclick="clickOperators()">
-
-            <input class="number" type="button" value="4" onclick="clickNumbers()">
-            <input class="number" type="button" value="5" onclick="clickNumbers()">
-            <input class="number" type="button" value="6" onclick="clickNumbers()">
+            <input class="function" type="button" value="+/-" onclick="clikFunctions()">
+            <input class="function" type="button" value="%" onclick="clikFunctions()">
+            <input class="operator" type="button" value="÷" onclick="clickOperators()">
+            <input id="btnNum7" class="number" type="button" value="7" onclick="clickNumbers(button)">
+            <input id="btnNum8" class="number" type="button" value="8" onclick="clickNumbers()">
+            <input id="btnNum9" class="number" type="button" value="9" onclick="clickNumbers()">
+            <input id="btnNum7" class="operator" type="button" value="×" onclick="clickOperators()">
+            <input id="btnNum4" class="number" type="button" value="4" onclick="clickNumbers()">
+            <input id="btnNum5" class="number" type="button" value="5" onclick="clickNumbers()">
+            <input id="btnNum6" class="number" type="button" value="6" onclick="clickNumbers()">
             <input class="operator" type="button" value="−" onclick="clickOperators()">
-
-            <input class="number" type="button" value="1" onclick="clickNumbers()">
-            <input class="number" type="button" value="2" onclick="clickNumbers()">
-            <input class="number" type="button" value="3" onclick="clickNumbers()">
+            <input id="btnNum1" class="number" type="button" value="1" onclick="clickNumbers()">
+            <input id="btnNum2" class="number" type="button" value="2" onclick="clickNumbers()">
+            <input id="btnNum3" class="number" type="button" value="3" onclick="clickNumbers()">
             <input class="operator" type="button" value="+" onclick="clickOperators()">
-
             <input class="function" type="button" value="AC" onclick="clikFunctions()">
-            <input class="number" type="button" value="0" onclick="clickNumbers()">
-            <input class="number" type="button" value="." >
-            <input class="equal" type="button" value="=" onclick="clickOperators()">
+            <input id="btnNum0" class="number" type="button" value="0" onclick="clickNumbers()">
+            <input class="number" type="button" value="." onclick="clickNumbers()" >
+            <input class="equal" type="button" value="=" onclick="clickCalculatorProcess()">
         </div>
     </div>
 

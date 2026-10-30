@@ -1,7 +1,18 @@
-function clickNumbers() {
-    let number = event.target.value;
+function clickNumbers(button){
+    let number = document.getElementById("button").value;
+    document.getElementById("Calculation").value =number;
+}
 
-    let txtValue = document.getElementById("numberType").value;
+function clickOperators() {
+    
+}
 
-    document.getElementById("numberType").value = txtValue + number;
+function clikFunctions() {
+    
+}
+
+
+function clickCalculatorProcess(){
+
+
 }
