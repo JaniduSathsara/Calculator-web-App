@@ -8,10 +8,6 @@ function clickNumbers(buttons) {
 function clickOperators(buttons) {
     let txtValue = document.getElementById("Calculation").value;
 
-    if (txtValue == "") {
-        return;
-    }
-
     if (buttons.value == "+") {
         txtValue = txtValue + "+";
 
